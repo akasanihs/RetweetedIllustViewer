@@ -1,9 +1,0 @@
-
-/* Class = "UISearchBar"; placeholder = "ユーザーを検索"; ObjectID = "5Y8-Tu-VOz"; */
-"5Y8-Tu-VOz.placeholder" = "ユーザーを検索";
-
-/* Class = "UILabel"; text = "日付"; ObjectID = "RU3-7s-wGo"; */
-"RU3-7s-wGo.text" = "日付";
-
-/* Class = "UILabel"; text = "ユーザー名"; ObjectID = "kmd-bg-JmD"; */
-"kmd-bg-JmD.text" = "ユーザー名";
