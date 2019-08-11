@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.0.1 (swiftlang-1001.0.82.4 clang-1001.0.46.5)"
+options: "4c97fcde3a38fe93ae124b548ff7c0e4"
+build_time: [1565553507, 496454000]
+inputs:
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/IllustCollectionViewCell.swift": !dirty [1543928278, 91445897]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/UsersData.swift": !dirty [1543926290, 596461483]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/IllustData.swift": !dirty [1543927461, 166739607]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/IllustDetailViewController.swift": !dirty [1543928161, 506460975]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/IllustCollectionViewController.swift": !dirty [1543927883, 720773560]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/AppDelegate.swift": !dirty [1537498558, 462582474]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/SearchUserTableViewModel.swift": !dirty [1543926569, 188243476]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/UrlExtension.swift": !dirty [1537518515, 591269001]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/IllustCollectionViewModel.swift": !dirty [1565552615, 678746008]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/UserTableViewCell.swift": !dirty [1537784793, 80841508]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/StringExtension.swift": !dirty [1538017913, 172085628]
+  "/Users/hirayamashunsuke/Desktop/Xcode/Swift/RetweetedIllustViewer/RetweetedIllustViewer/SearchUserTableViewController.swift": !dirty [1537784964, 521529560]
