@@ -1,0 +1,626 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0522874FB281116A57BE436641322E7D /* Pods-RetweetedIllustViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34686B9C909BB739235023E7B28496F1 /* Pods-RetweetedIllustViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		052B399CC5911ECD2BBB3E15534BFDD5 /* SwitchableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECE4B0CEE39CCFC6FBED2EE3B0DB1C35 /* SwitchableButton.swift */; };
+		11F5B9DA1160AF2C0A7D39C66EE989F3 /* HeartButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 063AAC08DF0F61ADC18ECA2C8C84C7D9 /* HeartButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1C28368E6BE13C95FDFE0221136B45B1 /* CASpringAnimation+ExpandScale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68161C05CBA2C453EF9313953BD3F665 /* CASpringAnimation+ExpandScale.swift */; };
+		413CA218CEA0E399B6237BCE5BB8DEBE /* Pods-RetweetedIllustViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CB61796C9BDCB221C282B210E9686D6 /* Pods-RetweetedIllustViewer-dummy.m */; };
+		764A4C9F74869EAFDF3FA1012D128B8B /* HeartButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C64A0A8232F4473A7D79AD315EA8F709 /* HeartButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98404B51376BD96B1CFB3AFC448B43A7 /* CAShapeLayer+HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C15212269D15A3241172A47D15D097B /* CAShapeLayer+HeartShape.swift */; };
+		9CCD9DE29FCD856AC27AFF7BA121BF4C /* HeartButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC05DB34431E3E4E223E06AA32C799E /* HeartButton-dummy.m */; };
+		B1CB752F8EA0FAD10347B5815E1EC834 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B9C0F8E567C9339F0858D0CF72BBC7AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D4660852B5FC90F8FA4F4F27767C7933 /* UIBezierPath+HeartShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4408FD1109DB090479485BCA7F2C2BB /* UIBezierPath+HeartShape.swift */; };
+		FAF470C00F1952CBA3DBEBD4163701AA /* HeartButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67D29BB2BAE7F6657E8F1589B662A643 /* HeartButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E773E5691BBCB42728A7861DE08B323F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47A75BEEAE694D3B494CF11101630061;
+			remoteInfo = HeartButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		063AAC08DF0F61ADC18ECA2C8C84C7D9 /* HeartButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HeartButton.h; path = HeartButton/HeartButton.h; sourceTree = "<group>"; };
+		0E1F48DD5172E388D9978319AB5CD64E /* HeartButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeartButton.debug.xcconfig; sourceTree = "<group>"; };
+		1B62901A4682AB867E5DBA4E62A22866 /* Pods-RetweetedIllustViewer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RetweetedIllustViewer-frameworks.sh"; sourceTree = "<group>"; };
+		1C15212269D15A3241172A47D15D097B /* CAShapeLayer+HeartShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAShapeLayer+HeartShape.swift"; path = "HeartButton/ShapeLayers/CAShapeLayer+HeartShape.swift"; sourceTree = "<group>"; };
+		1CB61796C9BDCB221C282B210E9686D6 /* Pods-RetweetedIllustViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RetweetedIllustViewer-dummy.m"; sourceTree = "<group>"; };
+		2A6532AFCE8BD2CB57FD985EB02CBBC1 /* HeartButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HeartButton.modulemap; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		34686B9C909BB739235023E7B28496F1 /* Pods-RetweetedIllustViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RetweetedIllustViewer-umbrella.h"; sourceTree = "<group>"; };
+		3613CBCACC734E201269D7C9CAC75D97 /* Pods_RetweetedIllustViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RetweetedIllustViewer.framework; path = "Pods-RetweetedIllustViewer.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A1F609CECBB1486B66C160BC74DDA /* Pods-RetweetedIllustViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetweetedIllustViewer.release.xcconfig"; sourceTree = "<group>"; };
+		3B673D6BC6FDD74D12EDA51889D24483 /* HeartButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "HeartButton-Info.plist"; sourceTree = "<group>"; };
+		44D3A70D6F1D1AE8AFBD1DA832058385 /* Pods-RetweetedIllustViewer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetweetedIllustViewer-Info.plist"; sourceTree = "<group>"; };
+		67D29BB2BAE7F6657E8F1589B662A643 /* HeartButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HeartButton.swift; path = HeartButton/Views/HeartButton.swift; sourceTree = "<group>"; };
+		68161C05CBA2C453EF9313953BD3F665 /* CASpringAnimation+ExpandScale.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CASpringAnimation+ExpandScale.swift"; path = "HeartButton/Animations/CASpringAnimation+ExpandScale.swift"; sourceTree = "<group>"; };
+		7410BDDACB07E23FB98B1D208E900CA8 /* Pods-RetweetedIllustViewer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RetweetedIllustViewer-acknowledgements.markdown"; sourceTree = "<group>"; };
+		74EA386A77D7E0C3F5762220FCBFB38B /* HeartButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HeartButton.framework; path = HeartButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BC29C852BB968C96BF70A33083BB420 /* Pods-RetweetedIllustViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RetweetedIllustViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		81EE97B8B3461E90CE3C1FD448D2B5C5 /* HeartButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartButton-prefix.pch"; sourceTree = "<group>"; };
+		830FBA65660C6C4943A3D86EFD86790F /* HeartButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HeartButton.release.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DAAE782726B9DDEE3CBC60FE93082DB /* Pods-RetweetedIllustViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RetweetedIllustViewer.modulemap"; sourceTree = "<group>"; };
+		C360A041C2E71DCF565300D1D032D617 /* Pods-RetweetedIllustViewer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RetweetedIllustViewer-acknowledgements.plist"; sourceTree = "<group>"; };
+		C64A0A8232F4473A7D79AD315EA8F709 /* HeartButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HeartButton-umbrella.h"; sourceTree = "<group>"; };
+		CDC05DB34431E3E4E223E06AA32C799E /* HeartButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HeartButton-dummy.m"; sourceTree = "<group>"; };
+		D4408FD1109DB090479485BCA7F2C2BB /* UIBezierPath+HeartShape.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIBezierPath+HeartShape.swift"; path = "HeartButton/ShapePaths/UIBezierPath+HeartShape.swift"; sourceTree = "<group>"; };
+		ECE4B0CEE39CCFC6FBED2EE3B0DB1C35 /* SwitchableButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwitchableButton.swift; path = HeartButton/Views/SwitchableButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A67D57A52ED65B7FC0A52F539061364 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9C0F8E567C9339F0858D0CF72BBC7AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9936797F2ED130242ED9323E19C4F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CB752F8EA0FAD10347B5815E1EC834 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02310F8F393574BFD64C4E7C4D9E1E61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4FCFB5B3F9FC237CB5FAF184F0F3668C /* HeartButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4FCFB5B3F9FC237CB5FAF184F0F3668C /* HeartButton */ = {
+			isa = PBXGroup;
+			children = (
+				1C15212269D15A3241172A47D15D097B /* CAShapeLayer+HeartShape.swift */,
+				68161C05CBA2C453EF9313953BD3F665 /* CASpringAnimation+ExpandScale.swift */,
+				063AAC08DF0F61ADC18ECA2C8C84C7D9 /* HeartButton.h */,
+				67D29BB2BAE7F6657E8F1589B662A643 /* HeartButton.swift */,
+				ECE4B0CEE39CCFC6FBED2EE3B0DB1C35 /* SwitchableButton.swift */,
+				D4408FD1109DB090479485BCA7F2C2BB /* UIBezierPath+HeartShape.swift */,
+				FEE5F3A91C8D54B693371A08676715DC /* Support Files */,
+			);
+			name = HeartButton;
+			path = HeartButton;
+			sourceTree = "<group>";
+		};
+		B58D15B4933E8398A439F66B5B502ACD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74EA386A77D7E0C3F5762220FCBFB38B /* HeartButton.framework */,
+				3613CBCACC734E201269D7C9CAC75D97 /* Pods_RetweetedIllustViewer.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CEF6AA9C80E81286F91AA8405BAC21CD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E63F34571593E3FBBBB3C9AA92C8E1FF /* Pods-RetweetedIllustViewer */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				02310F8F393574BFD64C4E7C4D9E1E61 /* Pods */,
+				B58D15B4933E8398A439F66B5B502ACD /* Products */,
+				CEF6AA9C80E81286F91AA8405BAC21CD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E63F34571593E3FBBBB3C9AA92C8E1FF /* Pods-RetweetedIllustViewer */ = {
+			isa = PBXGroup;
+			children = (
+				9DAAE782726B9DDEE3CBC60FE93082DB /* Pods-RetweetedIllustViewer.modulemap */,
+				7410BDDACB07E23FB98B1D208E900CA8 /* Pods-RetweetedIllustViewer-acknowledgements.markdown */,
+				C360A041C2E71DCF565300D1D032D617 /* Pods-RetweetedIllustViewer-acknowledgements.plist */,
+				1CB61796C9BDCB221C282B210E9686D6 /* Pods-RetweetedIllustViewer-dummy.m */,
+				1B62901A4682AB867E5DBA4E62A22866 /* Pods-RetweetedIllustViewer-frameworks.sh */,
+				44D3A70D6F1D1AE8AFBD1DA832058385 /* Pods-RetweetedIllustViewer-Info.plist */,
+				34686B9C909BB739235023E7B28496F1 /* Pods-RetweetedIllustViewer-umbrella.h */,
+				7BC29C852BB968C96BF70A33083BB420 /* Pods-RetweetedIllustViewer.debug.xcconfig */,
+				368A1F609CECBB1486B66C160BC74DDA /* Pods-RetweetedIllustViewer.release.xcconfig */,
+			);
+			name = "Pods-RetweetedIllustViewer";
+			path = "Target Support Files/Pods-RetweetedIllustViewer";
+			sourceTree = "<group>";
+		};
+		FEE5F3A91C8D54B693371A08676715DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A6532AFCE8BD2CB57FD985EB02CBBC1 /* HeartButton.modulemap */,
+				CDC05DB34431E3E4E223E06AA32C799E /* HeartButton-dummy.m */,
+				3B673D6BC6FDD74D12EDA51889D24483 /* HeartButton-Info.plist */,
+				81EE97B8B3461E90CE3C1FD448D2B5C5 /* HeartButton-prefix.pch */,
+				C64A0A8232F4473A7D79AD315EA8F709 /* HeartButton-umbrella.h */,
+				0E1F48DD5172E388D9978319AB5CD64E /* HeartButton.debug.xcconfig */,
+				830FBA65660C6C4943A3D86EFD86790F /* HeartButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/HeartButton";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		03C676E13E311B7B7B3AF713879C295F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				764A4C9F74869EAFDF3FA1012D128B8B /* HeartButton-umbrella.h in Headers */,
+				11F5B9DA1160AF2C0A7D39C66EE989F3 /* HeartButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0517B9673EDD14B8241BDCDF1CF0E94 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0522874FB281116A57BE436641322E7D /* Pods-RetweetedIllustViewer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		07DE7CB74D26C45F0902DB3CE635C38A /* Pods-RetweetedIllustViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8D27745D188B60CC4FE32472B8C5CCC /* Build configuration list for PBXNativeTarget "Pods-RetweetedIllustViewer" */;
+			buildPhases = (
+				E0517B9673EDD14B8241BDCDF1CF0E94 /* Headers */,
+				439F2F17E403D91E66036FFDECD3B07F /* Sources */,
+				B9936797F2ED130242ED9323E19C4F4B /* Frameworks */,
+				50C91F400C5D2CFDE9BFEDBAE4158EF1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0AD450FFC14B15B8AF787E6F73122EC /* PBXTargetDependency */,
+			);
+			name = "Pods-RetweetedIllustViewer";
+			productName = "Pods-RetweetedIllustViewer";
+			productReference = 3613CBCACC734E201269D7C9CAC75D97 /* Pods_RetweetedIllustViewer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		47A75BEEAE694D3B494CF11101630061 /* HeartButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80021C9BF2C658D1711A1434784BECE0 /* Build configuration list for PBXNativeTarget "HeartButton" */;
+			buildPhases = (
+				03C676E13E311B7B7B3AF713879C295F /* Headers */,
+				EC26711EF4693AD6115E0C02ECE6C5D3 /* Sources */,
+				0A67D57A52ED65B7FC0A52F539061364 /* Frameworks */,
+				0F12F516CD813014CE5BC87F6CCF7115 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HeartButton;
+			productName = HeartButton;
+			productReference = 74EA386A77D7E0C3F5762220FCBFB38B /* HeartButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = B58D15B4933E8398A439F66B5B502ACD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				47A75BEEAE694D3B494CF11101630061 /* HeartButton */,
+				07DE7CB74D26C45F0902DB3CE635C38A /* Pods-RetweetedIllustViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0F12F516CD813014CE5BC87F6CCF7115 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		50C91F400C5D2CFDE9BFEDBAE4158EF1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		439F2F17E403D91E66036FFDECD3B07F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				413CA218CEA0E399B6237BCE5BB8DEBE /* Pods-RetweetedIllustViewer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC26711EF4693AD6115E0C02ECE6C5D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98404B51376BD96B1CFB3AFC448B43A7 /* CAShapeLayer+HeartShape.swift in Sources */,
+				1C28368E6BE13C95FDFE0221136B45B1 /* CASpringAnimation+ExpandScale.swift in Sources */,
+				9CCD9DE29FCD856AC27AFF7BA121BF4C /* HeartButton-dummy.m in Sources */,
+				FAF470C00F1952CBA3DBEBD4163701AA /* HeartButton.swift in Sources */,
+				052B399CC5911ECD2BBB3E15534BFDD5 /* SwitchableButton.swift in Sources */,
+				D4660852B5FC90F8FA4F4F27767C7933 /* UIBezierPath+HeartShape.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0AD450FFC14B15B8AF787E6F73122EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = HeartButton;
+			target = 47A75BEEAE694D3B494CF11101630061 /* HeartButton */;
+			targetProxy = E773E5691BBCB42728A7861DE08B323F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		131356BE54884448CA49C07BEDF4BB2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		34A50D0392DE758A675749A8F624FA9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 368A1F609CECBB1486B66C160BC74DDA /* Pods-RetweetedIllustViewer.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		806D29177F4ABF12600465F64C0CF6A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BC29C852BB968C96BF70A33083BB420 /* Pods-RetweetedIllustViewer.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84BB5BC5A0A4EA032210B82C3947D3A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830FBA65660C6C4943A3D86EFD86790F /* HeartButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HeartButton/HeartButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeartButton/HeartButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HeartButton/HeartButton.modulemap";
+				PRODUCT_MODULE_NAME = HeartButton;
+				PRODUCT_NAME = HeartButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F090CD07A80273D5A73C8EA19224ADDB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F6EAE368A69876F3AB612FFE99DF4E90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E1F48DD5172E388D9978319AB5CD64E /* HeartButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HeartButton/HeartButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HeartButton/HeartButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/HeartButton/HeartButton.modulemap";
+				PRODUCT_MODULE_NAME = HeartButton;
+				PRODUCT_NAME = HeartButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131356BE54884448CA49C07BEDF4BB2A /* Debug */,
+				F090CD07A80273D5A73C8EA19224ADDB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80021C9BF2C658D1711A1434784BECE0 /* Build configuration list for PBXNativeTarget "HeartButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6EAE368A69876F3AB612FFE99DF4E90 /* Debug */,
+				84BB5BC5A0A4EA032210B82C3947D3A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8D27745D188B60CC4FE32472B8C5CCC /* Build configuration list for PBXNativeTarget "Pods-RetweetedIllustViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				806D29177F4ABF12600465F64C0CF6A9 /* Debug */,
+				34A50D0392DE758A675749A8F624FA9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

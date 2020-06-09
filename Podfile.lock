@@ -1,0 +1,16 @@
+PODS:
+  - HeartButton (1.1.0)
+
+DEPENDENCIES:
+  - HeartButton
+
+SPEC REPOS:
+  trunk:
+    - HeartButton
+
+SPEC CHECKSUMS:
+  HeartButton: 0d75e41d05292add5f1490c3a616ad24d7db4990
+
+PODFILE CHECKSUM: a41847e2e659a2d86c4c7af71da7ad027bdffcef
+
+COCOAPODS: 1.9.2

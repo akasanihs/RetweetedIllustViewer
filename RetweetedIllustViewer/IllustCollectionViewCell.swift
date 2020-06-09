@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import HeartButton
 
 class IllustCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var illustImageView: UIImageView!
 
+    @IBOutlet weak var r18Button: HeartButton!
     var illustInfo: IllustInfo!
     
     override init(frame: CGRect) {

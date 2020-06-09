@@ -18,7 +18,9 @@ class SearchUserTableViewModel {
         case loadmore
     }
     
+    // TODO: URLの設定
     static let entryUrl = "http://akasanihs.ddns.net:5555"
+//    static let entryUrl = "http://192.168.0.17:5555"
     private var page: Int = 1
     private var loadStatus: LoadStuts = .initial
     var searchWord: String?

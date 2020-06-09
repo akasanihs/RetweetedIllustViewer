@@ -7,16 +7,19 @@
 //
 
 import UIKit
+import HeartButton
 
 private let reuseIdentifier = "illustCell"
 
 class IllustCollectionViewController: UICollectionViewController {
+    
     
     // 遷移前に受け取る情報
     var entryUrl: String?
     var userUrl: String?
     var userName: String?
     
+    @IBOutlet weak var r18StateButton: HeartButton!
     
     private var viewModel: IllustCollectionViewModel!
     
@@ -26,15 +29,24 @@ class IllustCollectionViewController: UICollectionViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        r18StateButton.setOn(false, animated: false)
+        r18StateButton.stateChanged = { sender, isOn in
+            self.viewReload(r18State: isOn)
+        }
         
-        initViewModel(order: "desc")
+        initViewModel(order: "desc", r18Disp: false)
         viewModel.fetchIllustInfo()
     }
     
-    private func initViewModel(order: String) {
+    func viewReload(r18State: Bool) {
+        initViewModel(order: "desc", r18Disp: r18State)
+        viewModel.fetchIllustInfo()
+    }
+    
+    private func initViewModel(order: String, r18Disp: Bool) {
         guard let unwrappedEntryUrl = entryUrl else { return }
         guard let unwrappedUserUrl = userUrl else { return }
-        self.viewModel = IllustCollectionViewModel(entryUrl: unwrappedEntryUrl, userUrl: unwrappedUserUrl , order: order)
+        self.viewModel = IllustCollectionViewModel(entryUrl: unwrappedEntryUrl, userUrl: unwrappedUserUrl , order: order, r18Disp: r18Disp)
         
         // ハンドラの設定
         viewModel.reloadHandler = { [weak self] in
@@ -81,9 +93,62 @@ class IllustCollectionViewController: UICollectionViewController {
         // cellに遷移用の情報を保存
         cell.illustInfo = info
         
+        // r18ボタンの状態を反映
+        if (info.r18){
+            cell.r18Button.setOn(true, animated: false)
+        }else{
+            cell.r18Button.setOn(false, animated: false)
+        }
+        
+        // r18ボタンが押された時の処理
+        // TODO: ここに書かない方がいいかも？
+        cell.r18Button.stateChanged = { sender, isOn in
+            if isOn {
+                print("on")
+                self.updateR18State(true, tweetID: cell.illustInfo.tweetId, page: String(cell.illustInfo.page))
+            } else {
+                print("off")
+                self.updateR18State(false, tweetID: cell.illustInfo.tweetId, page: String(cell.illustInfo.page))
+            }
+        }
+        
+        
         return cell
         
     }
+    
+    // R18切り替えAPIを叩く
+    // TODO: エラー処理
+    func updateR18State(_ state:Bool, tweetID:String, page:String) {
+        guard let unwrappedEntryUrl = entryUrl else { return }
+        let updateR18Url = state ? "/r18/create" : "/r18/destroy"
+            
+        guard let url: URL = URL(string: unwrappedEntryUrl + updateR18Url) else { return }
+        var request = URLRequest(url: url)
+
+        request.httpMethod = "POST"
+        request.addValue("application/json", forHTTPHeaderField: "Content-Type")
+        let params:[String:String] = [
+            "tweet_id": tweetID,
+            "page": page
+        ]
+        do{
+            request.httpBody = try JSONSerialization.data(withJSONObject: params, options: .prettyPrinted)
+            
+            let task:URLSessionDataTask = URLSession.shared.dataTask(with: request as URLRequest, completionHandler: {(data,response,error) -> Void in
+                let resultData = String(data: data!, encoding: .utf8)!
+                print("result:\(resultData)")
+//                print("response:\(String(describing: response))")
+
+            })
+            task.resume()
+        }catch{
+            print("Error:\(error)")
+            return
+        }
+        
+    }
+    
     
     // スクロールした時の処理(下にスクロールしたらAPIを叩く)
     override func scrollViewDidScroll(_ scrollView: UIScrollView) {

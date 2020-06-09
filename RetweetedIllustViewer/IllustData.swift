@@ -29,6 +29,7 @@ class IllustInfo: Codable {
     var page: Int
     var createdTime: String
     var illustUrl: String
+    var r18: Bool
     
     private enum CodingKeys: String, CodingKey {
         case screenName = "screen_name"
@@ -37,5 +38,6 @@ class IllustInfo: Codable {
         case page
         case createdTime = "created_time"
         case illustUrl = "illust_url"
+        case r18
     }
 }

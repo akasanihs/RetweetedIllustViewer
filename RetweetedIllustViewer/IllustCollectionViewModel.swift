@@ -21,6 +21,7 @@ class IllustCollectionViewModel {
     let entryUrl: String!
     let userUrl: String!
     let order: String
+    let r18Disp: Bool!
     private var page: Int = 1
     private var loadStatus: LoadStuts = .initial
     var illustSize: Int? {
@@ -43,10 +44,11 @@ class IllustCollectionViewModel {
     var errorHandler: ((UIAlertController) -> Void)?
     
     // イニシャライザ
-    init(entryUrl: String, userUrl: String, order: String) {
+    init(entryUrl: String, userUrl: String, order: String, r18Disp: Bool) {
         self.entryUrl = entryUrl
         self.userUrl = userUrl
         self.order = order
+        self.r18Disp = r18Disp
     }
     
     func fetchIllustInfo() {
@@ -62,7 +64,8 @@ class IllustCollectionViewModel {
         
         // クエリを設定
         let query = [URLQueryItem(name: "page", value: String(page)),
-                     URLQueryItem(name: "order", value: self.order)]
+                     URLQueryItem(name: "order", value: self.order),
+                     URLQueryItem(name: "r18", value: String(self.r18Disp))]
         guard let queryStringAddedUrl = url.queryItemsAdded(query) else { return }
         
         let task: URLSessionTask  = URLSession.shared.dataTask(with: queryStringAddedUrl, completionHandler: {data, response, error in

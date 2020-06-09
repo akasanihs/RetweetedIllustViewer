@@ -22,9 +22,11 @@
 		4FBEC3D62158CAAF0057BF91 /* IllustCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEC3D52158CAAF0057BF91 /* IllustCollectionViewController.swift */; };
 		4FBEC3D82158CC0E0057BF91 /* IllustCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEC3D72158CC0E0057BF91 /* IllustCollectionViewCell.swift */; };
 		4FBEC3DA2158D6B40057BF91 /* IllustCollectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEC3D92158D6B40057BF91 /* IllustCollectionViewModel.swift */; };
+		DAA990B1AA9BE35A4EE61827 /* Pods_RetweetedIllustViewer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A53E78F4D7098561E56195 /* Pods_RetweetedIllustViewer.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34A53E78F4D7098561E56195 /* Pods_RetweetedIllustViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RetweetedIllustViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F30B5302159D24D00BD1AB4 /* IllustDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustDetailViewController.swift; sourceTree = "<group>"; };
 		4F30B534215C81F200BD1AB4 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		4F30D9E02154953E00DD2A96 /* RetweetedIllustViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RetweetedIllustViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +46,8 @@
 		4FBEC3D52158CAAF0057BF91 /* IllustCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustCollectionViewController.swift; sourceTree = "<group>"; };
 		4FBEC3D72158CC0E0057BF91 /* IllustCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustCollectionViewCell.swift; sourceTree = "<group>"; };
 		4FBEC3D92158D6B40057BF91 /* IllustCollectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IllustCollectionViewModel.swift; sourceTree = "<group>"; };
+		A60FFB0A46684F234A5246BF /* Pods-RetweetedIllustViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetweetedIllustViewer.debug.xcconfig"; path = "Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		E60E2E30AF8C749C234760E3 /* Pods-RetweetedIllustViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RetweetedIllustViewer.release.xcconfig"; path = "Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAA990B1AA9BE35A4EE61827 /* Pods_RetweetedIllustViewer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +67,8 @@
 			children = (
 				4F30D9E22154953E00DD2A96 /* RetweetedIllustViewer */,
 				4F30D9E12154953E00DD2A96 /* Products */,
+				8DBCC38131A0996A0600B343 /* Pods */,
+				7E4FCF93166EDB45A32817E6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +103,24 @@
 			path = RetweetedIllustViewer;
 			sourceTree = "<group>";
 		};
+		7E4FCF93166EDB45A32817E6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				34A53E78F4D7098561E56195 /* Pods_RetweetedIllustViewer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8DBCC38131A0996A0600B343 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A60FFB0A46684F234A5246BF /* Pods-RetweetedIllustViewer.debug.xcconfig */,
+				E60E2E30AF8C749C234760E3 /* Pods-RetweetedIllustViewer.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -103,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4F30D9F22154953F00DD2A96 /* Build configuration list for PBXNativeTarget "RetweetedIllustViewer" */;
 			buildPhases = (
+				FB879CB4D274BE101134E514 /* [CP] Check Pods Manifest.lock */,
 				4F30D9DC2154953E00DD2A96 /* Sources */,
 				4F30D9DD2154953E00DD2A96 /* Frameworks */,
 				4F30D9DE2154953E00DD2A96 /* Resources */,
+				5F104013793E9936E8662922 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +190,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F104013793E9936E8662922 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RetweetedIllustViewer/Pods-RetweetedIllustViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB879CB4D274BE101134E514 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RetweetedIllustViewer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4F30D9DC2154953E00DD2A96 /* Sources */ = {
@@ -328,6 +397,7 @@
 		};
 		4F30D9F32154953F00DD2A96 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A60FFB0A46684F234A5246BF /* Pods-RetweetedIllustViewer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -346,6 +416,7 @@
 		};
 		4F30D9F42154953F00DD2A96 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E60E2E30AF8C749C234760E3 /* Pods-RetweetedIllustViewer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
